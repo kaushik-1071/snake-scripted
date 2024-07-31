@@ -11,11 +11,11 @@ agent any
        checkout scm
         }  
     }
-    stage('SAST'){
+    /*stage('SAST'){
       steps{
         sh 'echo SAST stage'
        }
-    }
+    }*/
 
     
     stage('Build-and-Tag') {
